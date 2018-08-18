@@ -32,7 +32,5 @@ function totalRevenue(drivers) {
 }
 
 function averageRevenue(drivers) {
-  return drivers.forEach(function (driver) {
-    
-  })
+  return totalRevenue(drivers) / drivers.length;
 }
