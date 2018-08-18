@@ -30,3 +30,9 @@ function totalRevenue(drivers) {
     return currentDriver.revenue + total;
   }, 0);
 }
+
+function averageRevenue(drivers) {
+  return drivers.forEach(function (driver) {
+    
+  })
+}
